@@ -106,16 +106,6 @@ section h1{
     margin-bottom: 10px;
 }
 
-
-.formulario{
-    width: 450px;
-    height: 80vh;
-    background-color: rgba(240, 248, 255, 0.541);
-    margin-top: 30px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
 form{
     display: flex;
     flex-direction: column;
@@ -123,9 +113,13 @@ form{
 form input {
     height: 30px;
     margin-top: 10px;
+    border: none;
+    padding: 5px;
 }
 form label{
     margin-top: 10px;
+   
+    
     
 }
 form h2{
@@ -144,6 +138,7 @@ form button{
     border: 0;
     color: white;
     padding: 8px;
+    margin-bottom: 20px;
 }
 button:hover{
     background-color: green;
@@ -190,3 +185,5 @@ footer{
     max-height: 300px;
 
 }
+
+
