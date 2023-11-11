@@ -186,42 +186,5 @@ footer{
 
 }
 
-@media screen  and (max-width:667px){
-    header h1{
-    
-        font-size: 25px;
-    }
-    header> .container{
-        width: 100%;
-        padding: 5px;
-        justify-content: space-around;
-    }
-    html{
-        overflow-x: hidden;
-    }
-    .container{
-        max-width: 90%;
-    }
-    nav{
-        padding: 5px;
-    }
-    nav li{
-        font-size: 10px;
-    }
-    .articles{
-       display: block;
-        
-    }
-    .articles{
-        width: 90%;
-        margin: auto;
-    }
-    .articles article, img{
-        width: 100%;
-    }
-    form{
-        display: block;
-    }
-}
 
 
